@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: nbcL2EJ0gUbBPiRwVouv8ngrpMP5BtLJlnD2iqMHy/i70X17fdYpmJ2sHgIq25mbgMqUXMuyUzyxHMwAUJJUcya9bPqqM2RuxNIvrHpwfl72MhkCaJP8U+Q8QHE14IZLNm9jyCMVbdxokXvtBYoHO0XtEj4AtDf89bmhECp79Cxkuri+Juc2EGCPRvlLEaODJAmgCbUIIy5yS19XHf9yJ6iZaWqVTsVmTYmPrHiw7RBUkZrj+qev5jj7iRyCKMlZLNDFtl15Py1ARZ+8ky/voZicbIdrt+9z7ZSn0+TVz3fzGmvwfkwWfK2u5M3MYLIiDnOAAPfv5si34fQnUqDaxGboKjMSgH+Q8QBoan2RHyf4okpU/xmTrnd/dZEEGO/+sEXwjZG0IMkUHANmYG3FFA3R4C3HMgb4CMyXYB33judonPuh9yrL7cNbL5uIKD3Lk+mPYNQjFMGuVThr58S2KoNwkt6UY4RWfSBdZVeG4oXknqUJThWkHQWdg1yGqXtP8ykq09lEo50gJyOXvL8deng2Cy5O22hNvi61LQBhNohcE4sUR8R5y5rjNLRH/uQiINneFp8eApjZkk00Pq+MOqsn/WweErQIN+hG3oKe1QlYJR7xwJ6SMohfvcbtEoKVh/vJv+tuziCahKqqVf6Bmeyih4HCb68fzSo4Rkk3guw=
+  app: polar-depths-91711
+  on:
+    repo: cjhensen/node-shopping-list-integration-tests
